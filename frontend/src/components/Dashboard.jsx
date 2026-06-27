@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { Search, Filter } from 'lucide-react';
 import MaterialCard from './MaterialCard';
 
-const CATEGORIES = ['All', 'Metals', 'Aggregates', 'Building Materials', 'Pipes & Insulation'];
+const CATEGORIES = ['All', 'Metals', 'Aggregates', 'Building Materials', 'Pipes & Insulation', 'Waterproofing', 'Electrical', 'Finishing'];
 
 export default function Dashboard({ materials, forecasts, flashMap }) {
   const [search, setSearch] = useState('');

@@ -10,6 +10,9 @@ const CATEGORY_COLORS = {
   Aggregates: { bg: 'bg-amber-500/15', text: 'text-amber-400', border: 'border-amber-500/30' },
   'Building Materials': { bg: 'bg-purple-500/15', text: 'text-purple-400', border: 'border-purple-500/30' },
   'Pipes & Insulation': { bg: 'bg-cyan-500/15', text: 'text-cyan-400', border: 'border-cyan-500/30' },
+  Waterproofing: { bg: 'bg-teal-500/15', text: 'text-teal-400', border: 'border-teal-500/30' },
+  Electrical: { bg: 'bg-yellow-500/15', text: 'text-yellow-400', border: 'border-yellow-500/30' },
+  Finishing: { bg: 'bg-rose-500/15', text: 'text-rose-400', border: 'border-rose-500/30' },
 };
 
 export default function MaterialCard({ material, forecast, flashClass }) {
